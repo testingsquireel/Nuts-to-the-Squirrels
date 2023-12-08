@@ -6,7 +6,7 @@
     <title>The Experimental Tavern</title>
     <style>
         body {
-            font-family: 'Lobster', cursive;
+            font-family: 'Georgia', serif;
             margin: 20px;
             color: #333;
         }
@@ -14,7 +14,7 @@
         header {
             text-align: center;
             padding: 20px;
-            background-color: #3498db; /* Blue color */
+            background-color: #e74c3c; /* Red color */
             color: #fff;
         }
 
@@ -24,7 +24,7 @@
         }
 
         h2 {
-            color: #3498db; /* Blue color */
+            color: #e74c3c; /* Red color */
         }
 
         p {
@@ -32,7 +32,7 @@
         }
 
         .quote {
-            font-family: 'Pacifico', cursive;
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
             text-align: center;
             font-size: 18px;
             margin-top: 10px;
@@ -51,8 +51,11 @@
         .thumbs-down {
             color: #e74c3c; /* Red color for thumbs down */
         }
+
+        .synopsis {
+            margin-top: 15px;
+        }
     </style>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
 </head>
 <body>
     <header>
@@ -67,9 +70,13 @@
             <p><strong>Release Year:</strong> 2023</p>
             <p><strong>Director:</strong> Martin Scorsese</p>
             <p class="rating">★★☆☆☆ <span class="thumbs-down"></span></p>
-            <p>
-                When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.
-            </p>
+            <div class="synopsis">
+                <h3>Synopsis</h3>
+                <p>
+                    When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.
+                </p>
+                <p class="quote">Lame, amateur film. A documentary would have been more fitting...</p>
+            </div>
         </article>
 
         <article>
@@ -78,11 +85,13 @@
             <p><strong>Release Year:</strong> 1941</p>
             <p><strong>Director:</strong> Orson Welles</p>
             <p class="rating">★★★★★ <span class="thumbs-up"></span></p>
-            <p>
-                When a famous tycoon utters a mysterious word before dying, a journalist embarks on a journey to uncover the secret behind it.
-            </p>
-
-            <p class="quote">A toast, Jedediah, to love on my terms. Those are the only terms anybody ever knows... his own.</p>
+            <div class="synopsis">
+                <h3>Synopsis</h3>
+                <p>
+                    When a famous tycoon utters a mysterious word before dying, a journalist embarks on a journey to uncover the secret behind it.
+                </p>
+                <p class="quote">A toast, Jedediah, to love on my terms. Those are the only terms anybody ever knows... his own.</p>
+            </div>
         </article>
     </main>
 </body>
