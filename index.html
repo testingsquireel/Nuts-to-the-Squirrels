@@ -30,6 +30,24 @@
         p {
             line-height: 1.6;
         }
+
+        .quote {
+            font-family: 'YourSpecialFont', cursive; /* Replace 'YourSpecialFont' with the desired font name */
+            text-align: center;
+        }
+
+        .rating {
+            font-size: 24px;
+            margin-top: 5px;
+        }
+
+        .thumbs-up {
+            color: #2ecc71; /* Green color for thumbs up */
+        }
+
+        .thumbs-down {
+            color: #e74c3c; /* Red color for thumbs down */
+        }
     </style>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
 </head>
@@ -45,7 +63,7 @@
             <img src="MV5BMjE4ZTZlNDAtM2Q3YS00YjFhLThjN2UtODg2ZGNlN2E2MWU2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg" alt="Movie Poster" width="50%">
             <p><strong>Release Year:</strong> 2023</p>
             <p><strong>Director:</strong> Martin Scorsese</p>
-            <p><strong>Rating:</strong> ★★☆☆☆</p>
+            <p class="rating">★★☆☆☆ <span class="thumbs-down"></span></p>
             <p>
                 When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.
             </p>
@@ -56,12 +74,12 @@
             <img src="Citizen_Kane_poster,_1941_(Style_B,_unrestored).jpg" alt="Movie Poster" width="50%">
             <p><strong>Release Year:</strong> 1941</p>
             <p><strong>Director:</strong> Orson Welles</p>
-            <p><strong>Rating:</strong> ★★★★★</p>
+            <p class="rating">★★★★★ <span class="thumbs-up"></span></p>
             <p>
                 When a famous tycoon utters a mysterious word before dying, a journalist embarks on a journey to uncover the secret behind it.
             </p>
 
-            <p>
+            <p class="quote">
                 A toast, Jedediah, to love on my terms. Those are the only terms anybody ever knows... his own.
             </p>
         </article>
